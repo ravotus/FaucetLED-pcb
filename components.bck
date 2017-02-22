@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NCV551SN50T1G
+D 150mA 5V Output LDO
+K 150mA 5V Output LDO
+$ENDCMP
+#
 #End Doc Library
