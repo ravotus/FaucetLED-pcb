@@ -209,19 +209,6 @@ F 5 "3020" H 1350 1250 60  0001 C CNN "Manufacturer PN"
 	1    1350 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L STM32L052KxTx U2
-U 1 1 58AA48CE
-P 5600 3100
-F 0 "U2" H 6400 3900 60  0000 C CNN
-F 1 "STM32L052KxTx" H 5650 3350 60  0000 C CNN
-F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5500 2250 60  0001 C CNN
-F 3 "" H 5500 2250 60  0001 C CNN
-F 4 "497-14904-ND" H 5600 3100 60  0001 C CNN "DigiKey PN"
-F 5 "STM32L052K8T6" H 5600 3100 60  0001 C CNN "Manufacturer PN"
-	1    5600 3100
-	1    0    0    -1  
-$EndComp
 Text Label 9050 4000 2    60   ~ 0
 LED_R_CONN
 $Comp
@@ -274,7 +261,7 @@ Text Label 7000 3900 2    60   ~ 0
 SWCLK
 Text Label 4100 2550 0    60   ~ 0
 THERM_SW
-Text Label 4100 2650 0    60   ~ 0
+Text Label 7250 2800 2    60   ~ 0
 THERM_SENSE
 $Comp
 L GND #PWR09
@@ -397,8 +384,6 @@ Wire Wire Line
 	7000 3900 6600 3900
 Wire Wire Line
 	4100 2550 4750 2550
-Wire Wire Line
-	4100 2650 4750 2650
 Wire Wire Line
 	5700 4300 5700 4400
 Wire Wire Line
@@ -565,9 +550,9 @@ F 3 "" H 1300 4400 50  0000 C CNN
 	1    1300 4400
 	-1   0    0    -1  
 $EndComp
-Text Label 1850 4250 2    60   ~ 0
-SWDIO
 Text Label 1850 4350 2    60   ~ 0
+SWDIO
+Text Label 1850 4250 2    60   ~ 0
 SWCLK
 Text Label 1850 4450 2    60   ~ 0
 RESET
@@ -693,7 +678,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 6100 5400 6300
 NoConn ~ 4750 3400
-NoConn ~ 4750 3500
 NoConn ~ 4750 3600
 NoConn ~ 4750 3700
 NoConn ~ 4750 3800
@@ -701,8 +685,6 @@ NoConn ~ 6600 2900
 NoConn ~ 6600 3000
 NoConn ~ 6600 3100
 NoConn ~ 6600 3200
-NoConn ~ 6600 3400
-NoConn ~ 6600 3500
 NoConn ~ 6600 3600
 NoConn ~ 6600 3700
 $Comp
@@ -720,10 +702,8 @@ Wire Wire Line
 	7150 3300 7150 3250
 Wire Wire Line
 	4350 6200 3950 6200
-Text Label 7000 2800 2    60   ~ 0
+Text Label 4450 3500 0    60   ~ 0
 BATT_2
-Wire Wire Line
-	7000 2800 6600 2800
 $Comp
 L D_Schottky_x2_KCom_AAK D1
 U 1 1 58ABB0AB
@@ -1047,4 +1027,75 @@ Wire Wire Line
 	6150 900  6150 950 
 Wire Wire Line
 	6400 950  6400 1000
+Wire Wire Line
+	4450 3500 4750 3500
+Wire Wire Line
+	7250 2800 6600 2800
+NoConn ~ 4750 2650
+$Comp
+L STM32L052KxTx U2
+U 1 1 58AA48CE
+P 5600 3100
+F 0 "U2" H 6400 3900 60  0000 C CNN
+F 1 "STM32L052KxTx" H 5650 3350 60  0000 C CNN
+F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5500 2250 60  0001 C CNN
+F 3 "" H 5500 2250 60  0001 C CNN
+F 4 "497-14904-ND" H 5600 3100 60  0001 C CNN "DigiKey PN"
+F 5 "STM32L052K8T6" H 5600 3100 60  0001 C CNN "Manufacturer PN"
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+Text Label 7150 3400 2    60   ~ 0
+UART_TX
+Text Label 7150 3500 2    60   ~ 0
+UART_RX
+Wire Wire Line
+	7150 3400 6600 3400
+Wire Wire Line
+	6600 3500 7150 3500
+$Comp
+L CONN_01X02 P5
+U 1 1 58AE72EE
+P 1300 5100
+F 0 "P5" H 1300 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 1400 5100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1300 5100 50  0001 C CNN
+F 3 "" H 1300 5100 50  0000 C CNN
+	1    1300 5100
+	-1   0    0    -1  
+$EndComp
+Text Label 1900 5050 2    60   ~ 0
+UART_TX
+Text Label 1900 5150 2    60   ~ 0
+UART_RX
+Wire Wire Line
+	1900 5150 1500 5150
+Wire Wire Line
+	1500 5050 1900 5050
+$Comp
+L CONN_01X01 P6
+U 1 1 58AE7B4F
+P 1300 5700
+F 0 "P6" H 1300 5800 50  0000 C CNN
+F 1 "CONN_01X01" V 1400 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1300 5700 50  0001 C CNN
+F 3 "" H 1300 5700 50  0000 C CNN
+	1    1300 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 58AE7D5E
+P 1550 5750
+F 0 "#PWR031" H 1550 5500 50  0001 C CNN
+F 1 "GND" H 1550 5600 50  0000 C CNN
+F 2 "" H 1550 5750 50  0000 C CNN
+F 3 "" H 1550 5750 50  0000 C CNN
+	1    1550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5750 1550 5700
+Wire Wire Line
+	1550 5700 1500 5700
 $EndSCHEMATC
