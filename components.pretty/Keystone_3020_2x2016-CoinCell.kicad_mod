@@ -1,4 +1,4 @@
-(module Keystone_3020_2x2016-CoinCell (layer F.Cu) (tedit 58B0FF3A)
+(module Keystone_3020_2x2016-CoinCell (layer F.Cu) (tedit 58B0FF9E)
   (descr http://www.keyelco.com/product-pdf.cfm?p=14028)
   (tags "Keystone type 1058 coin cell retainer")
   (attr smd)
@@ -55,5 +55,5 @@
   (fp_circle (center 0 0) (end 10 0) (layer Dwgs.User) (width 0.15))
   (pad 1 smd rect (at -14.465 0) (size 5.08 5.08) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 14.465 0) (size 5.08 5.08) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0 0) (size 3.96 3.96) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 0) (size 5 5) (layers F.Cu F.Paste F.Mask))
 )
