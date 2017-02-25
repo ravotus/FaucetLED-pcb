@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch)
-    (date "2/24/2017 20:32:57")
+    (date "2/24/2017 20:36:16")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -458,16 +458,16 @@
         (pin (num 3) (name EN) (type input))
         (pin (num 5) (name OUT) (type power_out)))))
   (libraries
+    (library (logical regul)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical regul)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical components)
-      (uri C:\Projects\FaucetLED-pcb-v2\components.lib)))
+      (uri C:\Projects\FaucetLED-pcb-v2\components.lib))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name GND)
       (node (ref U2) (pin 32))

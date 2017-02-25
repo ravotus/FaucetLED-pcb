@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:FaucetLED-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -739,7 +738,7 @@ F 3 "" H 1300 3200 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L NCV551SN50T1G-RESCUE-FaucetLED U3
+L NCV551SN50T1G U3
 U 1 1 58ACFD46
 P 2900 1150
 F 0 "U3" H 3150 950 60  0000 C CNN
