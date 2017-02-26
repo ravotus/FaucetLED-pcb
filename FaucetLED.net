@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch)
-    (date "2/25/2017 18:38:25")
+    (date "2/25/2017 18:57:53")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
