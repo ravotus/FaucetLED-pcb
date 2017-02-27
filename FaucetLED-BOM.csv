@@ -2,7 +2,7 @@ Reference, Quantity, Value, Footprint, Datasheet, DigiKey PN, Note, Manufacturer
 BT1 ,1,CR2016x2,components:Keystone_3020_2x2016-CoinCell,,36-3020-ND,,3020
 BT2 ,1,LiIon,Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled,
 C11 ,1,10u,Capacitors_SMD:C_1206,,,DNP,
-C14 C2 ,2,100u,Capacitors_SMD:C_1210,
+C14 C2 ,2,100u,Capacitors_SMD:C_1210,,587-4313-1-ND,,
 C4 ,1,0.47u,components:C_0603_0805,
 C6 ,1,100n,components:C_0603_0805,
 C1 C12 C13 C3 C7 C9 ,6,100n,Capacitors_SMD:C_0603,

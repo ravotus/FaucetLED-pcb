@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch)
-    (date "2/26/2017 17:02:48")
+    (date "2/27/2017 17:18:49")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -269,6 +269,8 @@
     (comp (ref C2)
       (value 100u)
       (footprint Capacitors_SMD:C_1210)
+      (fields
+        (field (name "DigiKey PN") 587-4313-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B16CCA))
@@ -281,6 +283,8 @@
     (comp (ref C14)
       (value 100u)
       (footprint Capacitors_SMD:C_1210)
+      (fields
+        (field (name "DigiKey PN") 587-4313-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B28B0E))
@@ -505,14 +509,14 @@
   (libraries
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical components)
-      (uri C:\Projects\FaucetLED-pcb-v2\components.lib))
-    (library (logical regul)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical regul)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
+    (library (logical components)
+      (uri C:\Projects\FaucetLED-pcb-v2\components.lib)))
   (nets
     (net (code 1) (name /LED_B_CONN)
       (node (ref R7) (pin 2))

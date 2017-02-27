@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch</source>
-    <date>2/26/2017 17:04:43</date>
+    <date>2/27/2017 17:18:51</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -322,6 +322,9 @@
     <comp ref="C2">
       <value>100u</value>
       <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="DigiKey PN">587-4313-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58B16CCA</tstamp>
@@ -336,6 +339,9 @@
     <comp ref="C14">
       <value>100u</value>
       <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="DigiKey PN">587-4313-1-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58B28B0E</tstamp>
@@ -623,17 +629,17 @@
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
     </library>
-    <library logical="components">
-      <uri>C:\Projects\FaucetLED-pcb-v2\components.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
-    </library>
     <library logical="transistors">
       <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="components">
+      <uri>C:\Projects\FaucetLED-pcb-v2\components.lib</uri>
     </library>
   </libraries>
   <nets>
