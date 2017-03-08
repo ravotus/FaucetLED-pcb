@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch)
-    (date "2/27/2017 17:18:49")
+    (date "3/7/2017 18:10:19")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -75,7 +75,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5855DFDD))
     (comp (ref C4)
-      (value 0.47u)
+      (value 0.1u)
       (footprint components:C_0603_0805)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
@@ -507,14 +507,14 @@
         (pin (num 3) (name EN) (type input))
         (pin (num 5) (name OUT) (type power_out)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical transistors)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical transistors)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical components)
       (uri C:\Projects\FaucetLED-pcb-v2\components.lib)))
   (nets
