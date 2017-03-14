@@ -5,4 +5,10 @@ D 150mA 5V Output LDO
 K 150mA 5V Output LDO
 $ENDCMP
 #
+$CMP TPS78233DDC
+D 500nA Iq, 150mA, Ultra-Low Quiescent Current Low-Dropout Linear Regulator
+K LDO Voltage Regulator 150mA
+F http://www.ti.com/lit/ds/symlink/tps782.pdf
+$ENDCMP
+#
 #End Doc Library
