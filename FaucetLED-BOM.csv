@@ -1,7 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, DigiKey PN, Note, Manufacturer PN
 BT1 ,1,CR2016x2,components:Keystone_3020_2x2016-CoinCell,,36-3020-ND,,3020
 BT2 ,1,LiIon,Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled,
-C11 ,1,10u,Capacitors_SMD:C_1206,,,DNP,
+C11 ,1,10u,Capacitors_SMD:C_0603,,587-1256-1-ND,,
 C14 C2 ,2,100u,Capacitors_SMD:C_1210,,587-4313-1-ND,,
 C4 ,1,47n,components:C_0603_0805,
 C6 ,1,100n,components:C_0603_0805,
@@ -21,7 +21,7 @@ R4 R5 ,2,10k,components:R_0603_0805,
 R1 R6 ,2,130R,components:R_0603_0805,,311-130HRCT-ND,,
 R7 R8 ,2,80R6,components:R_0603_0805,
 R9 ,1,1k,components:R_0603_0805,
-U1 ,1,TLV70033DDC,TO_SOT_Packages_SMD:SOT-23-5,,296-27937-1-ND,,TLV70033DDCR
+U1 ,1,TPS78233DDC,TO_SOT_Packages_SMD:SOT-23-5,
 U2 ,1,STM32L052KxTx,components:LQFP-32_7x7mm_Pitch0.8mm_QFN-32-1EP_5x5mm_Pitch0.5mm-Combo,,497-14904-ND,,STM32L052K8T6
 U3 ,1,NCV551SN50T1G,TO_SOT_Packages_SMD:SOT-23-5,
 W1 ,1,TEST_1P,Measurement_Points:Measurement_Point_Round-SMD-Pad_Small,
