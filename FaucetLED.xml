@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch</source>
-    <date>3/14/2017 17:33:34</date>
+    <date>4/2/2017 19:21:20</date>
     <tool>Eeschema 4.0.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -64,7 +64,7 @@
       <tstamp>5855FF9C</tstamp>
     </comp>
     <comp ref="C6">
-      <value>100n</value>
+      <value>1u</value>
       <footprint>components:C_0603_0805</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -335,6 +335,9 @@
     <comp ref="U1">
       <value>TPS78233DDC</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="DigiKey PN">296-24059-1-ND</field>
+      </fields>
       <libsource lib="components" part="TPS78233DDC"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58C87FA9</tstamp>
@@ -601,17 +604,17 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
     <library logical="transistors">
       <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
-    </library>
-    <library logical="components">
-      <uri>C:\Projects\FaucetLED-pcb-v2\components.lib</uri>
     </library>
     <library logical="conn">
       <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    <library logical="components">
+      <uri>C:\Projects\FaucetLED-pcb-v2\components.lib</uri>
     </library>
   </libraries>
   <nets>

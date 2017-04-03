@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Projects/FaucetLED-pcb-v2/FaucetLED.sch)
-    (date "4/2/2017 19:19:53")
+    (date "4/2/2017 19:21:17")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -280,6 +280,8 @@
     (comp (ref U1)
       (value TPS78233DDC)
       (footprint TO_SOT_Packages_SMD:SOT-23-5)
+      (fields
+        (field (name "DigiKey PN") 296-24059-1-ND))
       (libsource (lib components) (part TPS78233DDC))
       (sheetpath (names /) (tstamps /))
       (tstamp 58C87FA9)))
