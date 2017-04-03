@@ -2,4 +2,5 @@ Only 2 screw holes are needed on the PCB.
 BT2 connector should be vertical to avoid hitting edge of enclosure.
 Use 3.3V regulator with lower Iq. -> TPS782 (296-24059-1-ND) - Be sure to tie pin 4 to ground.
 LED_R, G, and B control lines need pull-downs.
-Therm_Sense circuit: Topology is wrong. Temporary fix: De-pop R5. Replace in parallel with C5.
+Therm_Sense circuit: Topology is wrong. Temporary fix: De-pop R5. Replace in parallel with C6.
+C6 should be 1uF for Fc < 50/60Hz.
